@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <img src="../Assets/images/logo1.jpg" alt="Company logo for the restaurant website header" width="60px">
+      <!--The navigation section-->
+      <nav style="  text-align: right; padding: 15px; border-radius: 10px; margin: 10px; space-between: 15px; ">
+        <a href="../index.html" >HOME PAGE</a> |
+        <a href="about.html" >OUR STORY</a> |
+        <a href="contact.html" >CONTACT</a> |
+         <a href="enquiry.html" >ENQUIRY</a> |
+        <a href="Gallery.html">MENU</a> 
+        
+        </nav>
+    </header>
+    <section>
+    <h1 style="text-align: center;">Enquiry</h1>
+<!--Create a form-->
+<!--Added a form to the enquiry page-->
+
+    <form action="#" method="post" style="display: block; margin: auto; width: 60%; font-size: 18px;">
+      <label for="name" name="name">Your Name:</label><br/>
+      <input type="text" id="name" placeholder="Enter your name please" style="width: 100%; padding: 10px; font-size: 16px;" required> 
+    <br/><br/>
+    <label for="email" name="email">Email Address:</label><br/>
+    <input type="email" name="name" placeholder="Where we can reply to you"  style="width: 100%; padding: 10px; font-size: 16px;" required>
+    <br/><br/>
+    <label for="reason" name="reason">What Inquiry is about:</label><br/>
+    <select id="reason" name="reason"  style="width: 100%; padding: 10px; font-size: 16px;" required>
+        <!--Added a drop down list to the enquiry page-->
+<option value="">--Select--</option>
+<option value="">Complaint</option>
+<option value="">FundUs</option>
+<option value="">Special Order</option>
+<option value="">Other</option>
+    </select>
+    <br/><br/>
+   <!--Added a text area to the enquiry page-->
+<label for="message" name="message">The message:</label><br/>
+<textarea name="message" rows="10" cols="40" placeholder="Please briefly explain your message"  style="width: 100%; padding: 10px; font-size: 16px;" required></textarea>
+<br/><br/>
+<button type="submit">Submit Here</button>
+</form>
+</section>
+</body>
+</html>
